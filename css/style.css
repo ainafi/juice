@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url('../font/Righteous/Righteous-Regular.ttf');
+}
+body{position: relative;}
+h1,h2,h3,span{
+    font-family: 'regular';
+}
+button:hover{
+    background: green !important;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* header */
+header{
+    background: url(../img/bg.png);
+    background-size: cover;
+    max-height: 115vh;
+    background-repeat: round;
+}
+
+
+.juice-nav .nav-item .nav-link{
+    color: #fff !important;
+    font-size: 1rem;
+    margin-left: 51px;
+    position: relative;
+}
+
+.juice-nav .nav-item .nav-link:hover{
+    color: black !important;
+    transition: .2s ease;
+}
+
+
+
+
+
+.right-text{
+    padding-top: 40px;
+    color: #fff;
+}
+
+.right-text h1{
+    width: 96%;
+    font-size: 37px;
+    
+}
+
+.right-text .button{
+    width: 121px;
+    height: 34px;
+    background: #fff;
+    border: none;
+    color: #f06f1a;
+}
+
+.left img{
+    width: 89%;
+    height: 100%;
+}
+
+/* end header */
+
+/* section 1 */
+.section-1{
+    display: flex;
+}
+.right-about img{
+    width: 73%;
+    
+}
+
+
+.About-text span {
+   color: #f99b1d;
+}
+
+.About-text .butn-about{
+    background-color: #f99b1d;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    height: 41px;
+    width: 129px;
+
+}
+
+
+/* section 2  */
+
+.card-form{
+    width: 67%;
+    background: #f4f4f2;
+    border-radius: 20px;
+    border: none;
+   
+
+}
+.formulaire{
+    width: 86%;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    background-color: #fff !important;
+    border: none;
+}
+
+.formulaire-message{
+    width: 86%;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    height: 77px;
+    background-color: #fff !important;
+    border: none;
+}
+.btn-contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-contact{
+    width: 121px;
+    height: 34px;
+    background: #f06f1a;
+    border: none;
+    color: #fff;
+   margin-bottom: 15px;
+}
+
+.img-contact{
+    width: 100%;
+}
+
+
+/* section-3 */
+
+.section-3{
+    background: url(../img/bg.png);
+    background-size: cover;
+}
+
+.btn-healthy{
+    width: 121px;
+    height: 34px;
+    background: #fff ;
+    border: none;
+    color: #000;
+   margin-bottom: 15px;
+}
+
+/* end section-3 */
+
+/* section-4 */
+
+.section-4{
+    background: url(../img/bg3.png) ;
+    background-position: center;
+    height: 800px;
+    background-size: cover;
+    
+    position: relative;
+
+
+}
+
+.section-4::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+    opacity: .7;
+
+}
+
+.testimonial{
+    position: absolute;
+    top: 10%;
+}
+
+
+.cards{
+    width: 54em !important;
+    height: 18rem;
+    position: absolute;
+    margin: -24px;
+    box-shadow: 5px 3px 51px -10px;
+    border-radius: 33px;
+    background: rgba(255,255,255,0.7);
+}
+/* .cards:hover{
+    transform:translateX(20px);
+    transition: .7s ease-in;
+} */
+.profil{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-profil{
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.image-profil{
+    width: 20%;
+    align-self: center;
+    margin-top: -58px;
+    background: url(../img/bg.png);
+    border-radius: 54%;
+    padding: 11px;
+}
+
+.profil-name{
+    border-bottom: 2px solid black;
+    width: 121px;
+    align-self: center;
+    margin: 5px;
+    padding-bottom: 11px;
+    padding-top: 8px;
+}
+
+.profil-text{
+    text-align: center;
+    width: 93%;
+}
+
+/* end section 4 */
+
+/* footer */
+footer{
+    background: #2b2b2b !important;
+    min-height: 40vh;
+}
+.footer-text{
+    border-bottom: 1px solid white;
+    padding-top: 19px;
+    padding-bottom: 31px;
+}
+.footer-text h3 span{
+    color: #f06f1a;
+}
+
+.footer-text p{
+    width: 45%;
+    margin: auto;
+}
+
+@media (max-width:700px){
+    .right-about img{
+        margin-left: 38px;
+    }
+
+    .card-form{
+        width: 94%;
+        margin-left: 11px;
+    }
+
+    .contact{
+        text-align: center;
+        margin-right: 32px;
+        margin-bottom: 29px;
+    }
+
+    .healthy{
+        margin-top: 57px;
+    }
+    .btn-healthy{
+        margin-left: 70px;
+    }
+}
